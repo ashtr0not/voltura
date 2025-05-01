@@ -1,0 +1,50 @@
+WORKOUT APP(DEADLINE JUNE 1ST)
+
+App Description (Beginner-Focused):
+
+Start Strong. Stay Consistent. Reach Your Goals.
+
+Whether you're just starting your fitness journey or getting back on track, our app is designed to make working out simple, motivating, and effective. With easy-to-follow workout plans, beginner-friendly routines, and personalized guidance, you’ll build confidence and strength—one step at a time.
+
+No gym? No problem. Work out anywhere with guided videos, progress tracking, and daily motivation to keep you moving. From bodyweight basics to full-body strength, our expert-crafted programs are tailored to your pace, your goals, and your lifestyle.
+
+Features:
+
+Beginner-friendly workouts for all fitness levels
+
+Step-by-step video instructions
+
+Personalized fitness plans based on your goals
+
+Track your progress and build healthy habits
+
+Stay motivated with daily reminders and milestones
+
+No pressure. No judgment. Just progress.
+It’s time to feel stronger, inside and out.
+
+Steps: 
+
+Create an API with: 
+- Major Muscle Group: 
+    - Shoulders 
+        - Deltoids 
+            - Anterior
+            - Lateral 
+            - Posterior
+    - Chest 
+        - Pectorals 
+            -Major
+            -Minor 
+    - Arms 
+        -Biceps
+        -Triceps 
+    - Back 
+        - Trapezius(Upper Back)
+        - Latissimus Dorsi(Lower Back)
+        - Erector Spinae: Erector Spinae (Spinal Muscle)
+    - Legs 
+        - Quadriceps: Quadriceps Femoris (Front of Thigh)
+        - Hamstrings: Bicep Femoris, Semitendinosus, Semimembranosus(Back of Thigh)
+        - Glutes: Gluteus Maximus, Gluteus Medius, Gluteus Minimus(Buttocks)
+        - Calves: Gastrocnemius, Soleus (Lower Leg)
