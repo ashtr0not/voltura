@@ -24,19 +24,69 @@ app.use(express.json())
 //Workout API
 
 let workout = { //AKA Express API
-    'arm': { // This is my own API I had created. This API can be seen in post man under localhost:8000/api/workout 
+    'Arms': { // This is my own API I had created. This API can be seen in post man under localhost:8000/api/workout 
         muscleGroup : ['bicep', ' forearm', ' triceps'],
+        muscleDescription : 'Biceps are the large muscles located in your upper arm, extending from the shoulder to just above the elbow',
+        muscleWorkedPic : ['PLACE IMAGE OF MUSCLE WORKED HERE'],
         exercise : ['Bicep Curl', 'Pull-up', 'Chin-up', 'Concentration curl', 'Bent-over row'],
-        description : 'Biceps are the large muscles located in your upper arm, extending from the shoulder to just above the elbow'
+        exerciseDescription : 'DESCRIPTION OF EXERCISE',
+        exerciseGif : 'PLACE EXERCISE GIF HERE'
     },
-    'leg': {
+    'Legs': {
         muscleGroup : ['quads', 'calves', 'hamstrings'],
-        exercise : ['Leg Extensions', 'Calf Raises', 'Squats'],
-        description : 'The quads are a group of five muscles located in your upper leg at the fron of your thigh.'
-    },'unknown': {
-        muscleGroup : ['unknown','unknown'],
-        exercise : 'unknownwww',
-        description : 'I am unknown'
+        muscleDescription : ['The anterior deltoid, or front deltoid, is one of the three heads of the deltoid muscle group, located on the front of the shoulder. It helps move your arms forward.',
+                            'The lateral deltoid, or side deltoid, the second head of the deltoid located right in the middle of your shoulder. It helps move your arm up and down as well as side to side.',
+                            'The posterior deltoid, or rear deltoid, is located at the back of the shoulder. It contributes to shoulder stability, shoulder extension and external rotation.'],
+        muscleWorkedPic : ['PLACE IMAGE OF MUSCLE WORKED HERE',
+                            'PLACE IMAGE OF MUSCLE WORKED HERE',
+                            'PLACE IMAGE OF MUSCLE WORKED HERE'],
+        exercise : ['Front Arm Raises', 'Military Press', 'Upright Rows'],
+        exerciseDescription : ['Front arm raises could be done with or without weight. Starting with your arms at your sides, raise them until they are parallel to the ground.',
+                                'A military press involves pressing a weight from a resting position on your shoulders and pushing up to a fully extended overhead position, all while maintaining a stable and upright stance. ',
+                                'An upright row is a weight training exercise where you lift a weight vertically towards your chin or collarbone, using an overhand grip, with your elbows leading the movement.'],
+        exerciseGif : ['PLACE EXERCISE GIF HERE', 'PLACE EXERCISE GIF HERE', 'PLACE EXERCISE GIF HERE']
+    },
+    'Back':{
+        muscleGroup : ['Anterior Deltoid', 'Lateral Deltoid', 'Posterior Deltoid'],
+        muscleDescription : ['The anterior deltoid, or front deltoid, is one of the three heads of the deltoid muscle group, located on the front of the shoulder. It helps move your arms forward.',
+                            'The lateral deltoid, or side deltoid, the second head of the deltoid located right in the middle of your shoulder. It helps move your arm up and down as well as side to side.',
+                            'The posterior deltoid, or rear deltoid, is located at the back of the shoulder. It contributes to shoulder stability, shoulder extension and external rotation.'],
+        muscleWorkedPic : ['PLACE IMAGE OF MUSCLE WORKED HERE',
+                            'PLACE IMAGE OF MUSCLE WORKED HERE',
+                            'PLACE IMAGE OF MUSCLE WORKED HERE'],
+        exercise : ['Front Arm Raises', 'Military Press', 'Upright Rows'],
+        exerciseDescription : ['Front arm raises could be done with or without weight. Starting with your arms at your sides, raise them until they are parallel to the ground.',
+                                'A military press involves pressing a weight from a resting position on your shoulders and pushing up to a fully extended overhead position, all while maintaining a stable and upright stance. ',
+                                'An upright row is a weight training exercise where you lift a weight vertically towards your chin or collarbone, using an overhand grip, with your elbows leading the movement.'],
+        exerciseGif : ['PLACE EXERCISE GIF HERE', 'PLACE EXERCISE GIF HERE', 'PLACE EXERCISE GIF HERE']
+    },
+    'Chest':{
+        muscleGroup : ['Anterior Deltoid', 'Lateral Deltoid', 'Posterior Deltoid'],
+        muscleDescription : ['The anterior deltoid, or front deltoid, is one of the three heads of the deltoid muscle group, located on the front of the shoulder. It helps move your arms forward.',
+                            'The lateral deltoid, or side deltoid, the second head of the deltoid located right in the middle of your shoulder. It helps move your arm up and down as well as side to side.',
+                            'The posterior deltoid, or rear deltoid, is located at the back of the shoulder. It contributes to shoulder stability, shoulder extension and external rotation.'],
+        muscleWorkedPic : ['PLACE IMAGE OF MUSCLE WORKED HERE',
+                            'PLACE IMAGE OF MUSCLE WORKED HERE',
+                            'PLACE IMAGE OF MUSCLE WORKED HERE'],
+        exercise : ['Front Arm Raises', 'Military Press', 'Upright Rows'],
+        exerciseDescription : ['Front arm raises could be done with or without weight. Starting with your arms at your sides, raise them until they are parallel to the ground.',
+                                'A military press involves pressing a weight from a resting position on your shoulders and pushing up to a fully extended overhead position, all while maintaining a stable and upright stance. ',
+                                'An upright row is a weight training exercise where you lift a weight vertically towards your chin or collarbone, using an overhand grip, with your elbows leading the movement.'],
+        exerciseGif : ['PLACE EXERCISE GIF HERE', 'PLACE EXERCISE GIF HERE', 'PLACE EXERCISE GIF HERE']
+    },
+    'Shoulders':{
+        muscleGroup : ['Anterior Deltoid', 'Lateral Deltoid', 'Posterior Deltoid'],
+        muscleDescription : ['The anterior deltoid, or front deltoid, is one of the three heads of the deltoid muscle group, located on the front of the shoulder. It helps move your arms forward.',
+                            'The lateral deltoid, or side deltoid, the second head of the deltoid located right in the middle of your shoulder. It helps move your arm up and down as well as side to side.',
+                            'The posterior deltoid, or rear deltoid, is located at the back of the shoulder. It contributes to shoulder stability, shoulder extension and external rotation.'],
+        muscleWorkedPic : ['PLACE IMAGE OF MUSCLE WORKED HERE',
+                            'PLACE IMAGE OF MUSCLE WORKED HERE',
+                            'PLACE IMAGE OF MUSCLE WORKED HERE'],
+        exercise : ['Front Arm Raises', 'Military Press', 'Upright Rows'],
+        exerciseDescription : ['Front arm raises could be done with or without weight. Starting with your arms at your sides, raise them until they are parallel to the ground.',
+                                'A military press involves pressing a weight from a resting position on your shoulders and pushing up to a fully extended overhead position, all while maintaining a stable and upright stance. ',
+                                'An upright row is a weight training exercise where you lift a weight vertically towards your chin or collarbone, using an overhand grip, with your elbows leading the movement.'],
+        exerciseGif : ['PLACE EXERCISE GIF HERE', 'PLACE EXERCISE GIF HERE', 'PLACE EXERCISE GIF HERE']
     }
 }
 
