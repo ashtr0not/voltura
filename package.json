@@ -1,0 +1,26 @@
+{
+  "name": "voltura",
+  "version": "1.0.0",
+  "description": "Voltura is an easy, simple to use workout app that allows end users to choose which muscles they'd like to target in their workout, and provides easy instructions/ demos on the workout and which muscles will be targeted.",
+  "homepage": "https://github.com/ashtr0not/voltura#readme",
+  "bugs": {
+    "url": "https://github.com/ashtr0not/voltura/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashtr0not/voltura.git"
+  },
+  "license": "ISC",
+  "author": "Ash Carey",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "mongodb": "^6.16.0"
+  }
+}
