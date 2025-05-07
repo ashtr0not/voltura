@@ -10,14 +10,47 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="index.css">
     </head>
     <body>
+        <!-- Header -->
+
         <h1>VOLTURA</h1>
-        <h4></h4>
-        <p></p>
-        <h3></h3>
-        
+
+        <!-- About / Form / Diagram Section -->
+        <div class="section1">
+
+            <div class="about">
+                <h4>About:</h4>
+                <p>Start Strong. Stay Consistent. Reach Your Goals. <br>
+                    Whether you're just starting your fitness journey or getting back on track, our app is designed to make working out simple, motivating, and effective. With easy-to-follow workout plans, beginner-friendly routines, and personalized guidance, you’ll build confidence and strength—one step at a time. 
+                    No gym? No problem. Work out anywhere with guided videos, progress tracking, and daily motivation to keep you moving. From bodyweight basics to full-body strength, our expert-crafted programs are tailored to your pace, your goals, and your lifestyle.
+                    </p>
+            </div>
+            <div class="formDiagram">
+                <h4>Calculate Your Caloric Deficit:</h4>
+                <form action="saveForm" method="POST" class="form">
+                    <div class="row">
+                        <label for="name">Name: </label>
+                        <input type="text"  name="name" id="name">
+                    </div>
+                    <div class="row">
+                        <label for="currentWeight">Current Weight: </label>
+                        <input type="text" name="currentWeight" id="currentWeight">
+                    </div>
+                    <div class="row">
+                        <label for="goalWeight">Goal Weight: </label>
+                        <input type="text" name="goalWeight" id="goalWeight">
+                    </div>
+                    <div>
+                        <label for="height">Height: </label>
+                        <input type="text" name="height" id="height">
+                    </div class="row">
+                    <!-- <label for="submit">SUBMIT</label> -->
+                    <input type="submit" value="SUBMIT">
+                </form>
+            </div>
+        </div>
         <script src="server.js" async defer></script>
     </body>
 </html>

@@ -1,0 +1,74 @@
+html{
+    background-color: rgb(9, 91, 127);
+    color: rgb(200, 255, 0);
+    font-family: Lucida Console,Lucida Sans Typewriter,monaco,Bitstream Vera Sans Mono,monospace; 
+    font-weight: 100;
+}
+
+h1{
+    border-bottom: 10px solid transparent;
+    border-width: 2px;
+    /* opacity: 0.5; */
+    
+    /* border-bottom: 2px; */
+    border-color: rgb(200, 255, 0);
+}
+
+.section1{
+    display: inline-flex;
+    border: 10px solid transparent;
+    border-width: 2px;
+}
+
+.about{
+    width: 55%;
+    padding: 20px;
+    border: solid;
+    margin-left: 2%;
+    margin-right: 2%
+}
+
+.formDiagram{
+    width: 40%;
+    padding: 20px;
+    border: solid;
+    margin-right: 2%;
+    
+
+    /* margin-left: 60%; */
+}
+
+.row{
+    margin-bottom: 20px;
+}
+label{
+    /* clear: left; */
+    width: 250px;
+    position: absolute;
+}
+
+input{
+    width: 40%;
+    display: inline-flex;
+    margin-left: 200px;
+    display: inline-block;
+    position: relative;
+}
+
+input[type="submit"]:hover {
+    background-color: #ffffff;
+}
+
+input[type="submit"]{
+    width: 20%;
+    background-color: rgb(200, 255, 0);
+    /* top:50%; */
+    color: #180e0e;
+    border:none; 
+    border-radius:10px; 
+    padding:15px;
+    margin-top: 60px;
+    font-family: Lucida Console,Lucida Sans Typewriter,monaco,Bitstream Vera Sans Mono,monospace;
+}
+
+
